@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(59,43,27);
+    height: 80px;
+}
+
+.cabecario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body{
+    background-color: rgb(219,198,150);
+}
+
+.icone{
+    width: 75px;
+    height: 50px;
+}
+
+.paginas{
+    width: 1080px;
+    display: flex;
+    margin-right: 20px;
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    list-style: none;
+}
+
+nav li{
+    margin-right: 20px;
+    font-size: 1.5rem;
+}
+.paginas a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+footer{
+    background-color: rgb(156,89,44);
+}
+
+.rodape{
+    margin-top: 15px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* css do main e background */

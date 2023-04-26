@@ -1,0 +1,23 @@
+h1{
+    color: rgb(53, 28, 11);
+    font-size: 30px;
+}
+
+main{
+    color: rgb(85, 44, 17);
+}
+
+input{
+    background-color: wheat;
+}
+
+button{
+    background-color: wheat;
+    color: rgb(85, 44, 17);
+    border-color: black;
+    border-radius: 5px;
+}
+
+p{
+    color: rgb(85, 44, 17);
+}

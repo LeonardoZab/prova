@@ -1,0 +1,38 @@
+h1{
+    color: rgb(130, 73, 34);
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.titulo{
+    color: rgb(190, 107, 52);
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.propósito{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.propósito img, .propósito .texto{
+    padding: 8px;
+}
+
+.propósito img{
+    border-radius: 38px;
+    margin: 16px;
+}
+
+.texto{
+    text-align: center;
+    font-size: 2.6rem;
+    font-family: 'Franklin Gothic Medium';
+    color: rgb(190, 107, 52);
+    font-weight: 50;
+}

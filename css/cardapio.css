@@ -1,0 +1,10 @@
+.cardapio{
+    color: rgb(85, 44, 17);
+    text-align: center;
+    align-items: center;
+}
+
+.img{
+    height: 220px;
+    width: 220px;
+}
