@@ -48,6 +48,10 @@ let valor_cafe_leite = qtde_cafe_leite*cafe_leite_vlr
 
 valor_total = valor_cachorro+valor_misto+valor_bauru+valor_cheese+valor_egg+valor_frango+valor_refri+valor_sucos+valor_cafe+valor_cafe_leite
 
+if (valor_total > 100){
+    valor_total = valor_total-(valor_total*0.05)
+}
+
 valor_compra.innerHTML = 'O valor da compra R$ é R$ ' + valor_total.toFixed(2)
 
 
